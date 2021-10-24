@@ -9,7 +9,6 @@ export function Home () {
     <View style={styles.container}>
       <Header />
       <Text>Componente home</Text>
-
     </View>
   );
 }
