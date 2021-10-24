@@ -10,10 +10,12 @@ export function Header() {
   return (
     <View style={styles.container}>
       <LogoSvg />
-      <TouchableOpacity>
-        <Text style={styles.logoutText}> Sair</Text>
-      </TouchableOpacity>
-      <UserPhoto imageUri={""} />
+      <View style={styles.logoutButton}>
+        <TouchableOpacity>
+          <Text style={styles.logoutText}> Sair</Text>
+        </TouchableOpacity>
+        <UserPhoto imageUri="" />
+      </View>
     </View>
   );
 }
